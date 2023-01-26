@@ -1,0 +1,55 @@
+html{
+    
+    background-image: url(Sprite/Mobile\ -\ Heroes\ Saga\ Bootleg\ -\ Alpine\ Forest.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+div{
+    display:flex;
+    color: white;
+}
+
+#Boutons{
+    display:flex;
+    justify-content: center;
+}
+ 
+
+#Mob{
+    display: flex;
+    justify-content: space-evenly;
+}
+#monstre{
+    display:flex;
+    flex-direction: column;
+    height: 192px;
+    width: 192px;
+    margin-top: 10%;
+}
+
+#Persos{
+    flex-direction: column;
+    display: flex;
+    height: 128px;
+    width: 128px;
+    margin-top: 12%;
+}
+
+#Vie{
+    margin-top: 20%;
+    display:flex;
+    justify-content:space-evenly ;
+}
+
+#Vie_Monstre{
+    display: flex;
+    flex-direction: column;
+}
+
+#Vie_Persos{
+    display: flex;
+    flex-direction: column;
+}
